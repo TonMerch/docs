@@ -1,0 +1,76 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "TON Merch Docs",
+  "theme": "prism",
+  "logo": {
+    "dark": "/images/docs-white.svg",
+    "light": "/images/docs.svg"
+  },
+  "favicon": "/images/logo-mini.svg",
+  "colors": {
+    "primary": "#007AFF",
+    "light": "#007AFF",
+    "dark": "#007AFF",
+    "anchors": {
+      "from": "#007AFF",
+      "to": "#007AFF"
+    }
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "en"
+    },
+    {
+      "name": "RU Documentation",
+      "url": "ru"
+    },
+    {
+      "name": "Legal",
+      "url": "legal"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Merch Store Mini-App",
+      "icon": "shirt",
+      "url": "https://t.me/tonmerch_bot/app?startapp=ref-6761bb7e710b1409a4de4cfe"
+    },
+    {
+      "name": "Telegram Channel",
+      "icon": "telegram",
+      "url": "https://t.me/tonmerch"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/tonmerch"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Core Documents",
+      "icon": "bookmark",
+      "pages": [
+        "en/whitepaper",
+        "en/roadmap"
+      ]
+    },
+    {
+      "group": "Core Documents",
+      "icon": "bookmark",
+      "pages": [
+        "ru/whitepaper",
+        "ru/roadmap"
+      ]
+    },
+    {
+      "group": "Legal",
+      "icon": "gavel",
+      "pages": [
+        "legal/terms",
+        "legal/policy"
+      ]
+    }
+  ]
+}
